@@ -108,7 +108,6 @@ const formNavigation=()=>{
           <div className='w-[160px] md:w-[195px]'>
             <img src='Logo.png' alt='Logo' className='w-full h-auto' />
           </div>
-
           {/* Desktop Navigation */}
           <nav className='hidden lg:flex space-x-8 text-[#0066b3] font-IBM font-light text-lg'>
             {navItems.map((item, idx) => (
@@ -323,11 +322,11 @@ item.label === 'Universities' ? (
   </p>
   <div
     onClick={() => formNavigation()}
-    className="mt-4 flex justify-center md:justify-center"
+    className="mt-4 flex justify-center md:justify-start"
   >
     <button
       data-aos="fade-left"
-      className="relative overflow-hidden mt-10 bg-[#008294] text-white px-6 py-2 rounded-md text-sm font-medium border border-[#008294] group"
+      className="relative overflow-hidden mt-10 bg-[#008294] text-white px-2 py-2 rounded-md text-sm font-medium border border-[#008294] group"
     >
       <span className="absolute inset-0 bg-[#264186] translate-y-full group-hover:translate-y-0 transition-transform duration-500 z-0"></span>
       <span className="relative font-robot font-light tracking-wide z-10 flex items-center gap-2">

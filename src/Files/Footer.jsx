@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faFacebookF, faInstagram, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { useNavigate } from 'react-router-dom';
 import { countryRoutes,serviceRoutes } from '../PageNavigation/pageNav';
+import Ieea from '../PageNavigation/badge';
 const Footer = () => {
   const footerData = [
     "Course & Career Counseling",
@@ -65,9 +66,9 @@ const Footer = () => {
             </div>
           </div>
           <div className='relative'>
-           <div className=' fixed lg:absolute bottom-[28%] md:left-0 left-[70%] w-full h-[6%] mt-[7%] z-50'>
+           <div className=' fixed lg:absolute bottom-[28%] md:left-0 left-[70%] w-[25%] h-[6%] mt-[7%] z-50'>
                     <h1 className='hidden lg:block lg:text-[#264186] lg:font-robot lg:font-semibold lg:tracking-wide'>Accredited by: </h1>
-<span id='iasBadge' data-account-id='6599'></span><script async defer crossOrigin="anonymous" src="https://www-cdn.icef.com/scripts/iasbadgeid.js"></script>
+                <Ieea/>
                   </div>
 </div>
         </div>

@@ -83,7 +83,7 @@ const Testimonials = () => {
         >
           {testimonialsData.map((testimonial, index) => (
             <SwiperSlide key={index}>
-              <div className="bg-white rounded-lg shadow-lg p-6 mx-4 flex flex-col items-center text-center transform transition-transform duration-300 hover:-translate-y-2 w-[100%] h-[400px]">
+              <div className="bg-white rounded-lg shadow-lg p-6 mx-4 flex flex-col items-center text-center transform transition-transform duration-300 hover:-translate-y-2 w-[100%]  h-[500px] lg:h-[400px]">
                 <img
                   src={testimonial.img}
                   alt={testimonial.name}
