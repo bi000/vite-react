@@ -49,4 +49,3 @@ export const UniversityNav ={
   2:'/Testimonials',
   3:'/EOI',
 };
-

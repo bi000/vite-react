@@ -17,7 +17,8 @@ const Footer = () => {
     'Destinations',
     'Services',
     'Student Journey',
-    'Universities'
+    'Universities',
+    'Article'
   ];
   const studyDestinations = [
     'UK',

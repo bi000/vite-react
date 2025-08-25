@@ -30,7 +30,7 @@ subContent:[
 icon:'faClock'      
 },
       {
-Maincontent:'ompliance with Laws and Regulations ',
+Maincontent:'Compliance with Laws and Regulations ',
 subContent:[
 ' We comply with all relevant laws, immigration policies, and institutional requirements in Nepal and destination countries.',
 'We uphold the standards set by our certifications (e.g., ICEF, QEAC, British Council, and MOE.',

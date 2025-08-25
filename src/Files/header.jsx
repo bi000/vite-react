@@ -61,7 +61,7 @@ const formNavigation=()=>{
        'Document Verification and  Translation'
     ] },
 
-    { label: 'About Us', submenu: ['Who we are','Message From Director','Our Mission and Vision', 'Our Core Values']},
+    { label: 'About Us', submenu: ['Who we are','Message From Director','Our Mission and Vision', 'Our Core Values','Article']},
     { label: 'Compliance Hub', submenu: [
       'Code of Conduct',
        'Under 18 Policy',

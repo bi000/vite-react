@@ -60,6 +60,10 @@ const PatnerInstitutions = React.lazy(() => import('./Universities/PatnerInstitu
 //Form
 import FormData from './Files/Form';
 
+//Article page
+import Article from './AboutUs/Article';
+
+
 // App Component with Routes
 const App = () => {
   return (
